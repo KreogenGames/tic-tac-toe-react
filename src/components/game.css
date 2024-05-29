@@ -1,0 +1,32 @@
+.wrapper {
+	min-height: 100vh;
+	width: 100%;
+	background: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.start__btn {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 25px;
+	cursor: pointer;
+	color: white;
+	outline: none;
+	background: grey;
+	border: 1px solid white;
+	font-size: 20px;
+}
+
+.start__btn:hover {
+	background: white;
+	color: grey;
+	transition: .3s all ease;
+}
+
+.game__stat {
+	font-size: 36px;
+	color: white;
+}
